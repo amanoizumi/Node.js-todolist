@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "0250b119-0abc-4c81-9d9f-1e59ce08a24d",
+		"name": "todolist - heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有待辦",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://serene-beyond-72158.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"serene-beyond-72158",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆待辦",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"heroku 打 API 測試\"\r\n}"
+				},
+				"url": {
+					"raw": "https://serene-beyond-72158.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"serene-beyond-72158",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有待辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://serene-beyond-72158.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"serene-beyond-72158",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆待辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://serene-beyond-72158.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"serene-beyond-72158",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "編輯單筆待辦",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://serene-beyond-72158.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"serene-beyond-72158",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
